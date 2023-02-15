@@ -29,7 +29,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func _launch_1() {
-        let bundleUrl = URL(fileURLWithPath: "/Users/fertrig/development/explorations/reload_crash/out/bundles/hamster")
+        let bundleUrl = URL(fileURLWithPath: "/Users/fertrig/development/explorations/reload_crash/out/bundles/fish")
         let bundle = Bundle.init(path: bundleUrl.path)
         let project = FlutterDartProject.init(precompiledDartBundle: bundle)
         let controller = FlutterViewController.init(project: project)
