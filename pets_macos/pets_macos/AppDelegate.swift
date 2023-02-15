@@ -15,6 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        // it also crashes swapping launch_1 and launch_2
         _launch_1()
         _launch_2()
     }
