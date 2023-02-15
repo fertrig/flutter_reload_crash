@@ -1,20 +1,13 @@
 import 'foo.dart';
 
 class Fish {
-  String sound() => "ccc";
+  String sound() => "qqq";
 }
 
 
-class FishFoo extends Foo<bool, int> {
+class FishFoo extends Foo {
   @override
-  bool fromFoo(int foo) {
-    // TODO: implement fromFoo
-    throw UnimplementedError();
-  }
-
-  @override
-  int toFoo(bool object) {
-    // TODO: implement toFoo
-    throw UnimplementedError();
-  }
+  void bar() {
+    // TODO: implement bar
+  }  
 }

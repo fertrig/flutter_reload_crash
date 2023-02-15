@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// importing foo.dart also crashes
 import 'fish.dart';
 
 void main() {
