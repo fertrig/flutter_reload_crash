@@ -1,18 +1,8 @@
-//
-//  AppDelegate.swift
-//  andes_macos
-//
-//  Created by Fernando Trigoso on 2/14/23.
-//
-
 import Cocoa
 import FlutterMacOS
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    
-
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // it also crashes swapping launch_1 and launch_2
@@ -40,7 +30,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         window.setContentSize(NSSize(width: 300, height: 400))
         window.setFrameOrigin(NSPoint(x: 100.0, y: 100.0))
-        window.title = "cat"
+        window.title = "fish"
         
         windowController.window = window
         windowController.showWindow(self)
